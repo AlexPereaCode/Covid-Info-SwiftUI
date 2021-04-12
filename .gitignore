@@ -1,0 +1,122 @@
+
+Pods/Target Support Files/PromiseKit/PromiseKit.release.xcconfig
+Pods/Target Support Files/PromiseKit/PromiseKit.modulemap
+Pods/Target Support Files/PromiseKit/PromiseKit.debug.xcconfig
+Pods/Target Support Files/PromiseKit/PromiseKit-umbrella.h
+Pods/Target Support Files/PromiseKit/PromiseKit-prefix.pch
+Pods/Target Support Files/PromiseKit/PromiseKit-Info.plist
+Pods/Target Support Files/PromiseKit/PromiseKit-dummy.m
+Pods/Target Support Files/Pods-CovidInfo/Pods-CovidInfo.release.xcconfig
+Pods/Target Support Files/Pods-CovidInfo/Pods-CovidInfo.modulemap
+Pods/Target Support Files/Pods-CovidInfo/Pods-CovidInfo.debug.xcconfig
+Pods/Target Support Files/Pods-CovidInfo/Pods-CovidInfo-umbrella.h
+Pods/Target Support Files/Pods-CovidInfo/Pods-CovidInfo-Info.plist
+Pods/Target Support Files/Pods-CovidInfo/Pods-CovidInfo-frameworks.sh
+Pods/Target Support Files/Pods-CovidInfo/Pods-CovidInfo-frameworks-Release-output-files.xcfilelist
+Pods/Target Support Files/Pods-CovidInfo/Pods-CovidInfo-frameworks-Release-input-files.xcfilelist
+Pods/Target Support Files/Pods-CovidInfo/Pods-CovidInfo-frameworks-Debug-output-files.xcfilelist
+Pods/Target Support Files/Pods-CovidInfo/Pods-CovidInfo-frameworks-Debug-input-files.xcfilelist
+Pods/Target Support Files/Pods-CovidInfo/Pods-CovidInfo-dummy.m
+Pods/Target Support Files/Pods-CovidInfo/Pods-CovidInfo-acknowledgements.plist
+Pods/Target Support Files/Pods-CovidInfo/Pods-CovidInfo-acknowledgements.markdown
+Pods/Target Support Files/Alamofire/Alamofire.release.xcconfig
+Pods/Target Support Files/Alamofire/Alamofire.modulemap
+Pods/Target Support Files/Alamofire/Alamofire.debug.xcconfig
+Pods/Target Support Files/Alamofire/Alamofire-umbrella.h
+Pods/Target Support Files/Alamofire/Alamofire-prefix.pch
+Pods/Target Support Files/Alamofire/Alamofire-Info.plist
+Pods/Target Support Files/Alamofire/Alamofire-dummy.m
+Pods/PromiseKit/Sources/when.swift
+Pods/PromiseKit/Sources/when.m
+Pods/PromiseKit/Sources/Thenable.swift
+Pods/PromiseKit/Sources/Resolver.swift
+Pods/PromiseKit/Sources/race.swift
+Pods/PromiseKit/Sources/race.m
+Pods/PromiseKit/Sources/PromiseKit.h
+Pods/PromiseKit/Sources/Promise.swift
+Pods/PromiseKit/Sources/PMKCallVariadicBlock.m
+Pods/PromiseKit/Sources/NSMethodSignatureForBlock.m
+Pods/PromiseKit/Sources/LogEvent.swift
+Pods/PromiseKit/Sources/join.m
+Pods/PromiseKit/Sources/hang.swift
+Pods/PromiseKit/Sources/hang.m
+Pods/PromiseKit/Sources/Guarantee.swift
+Pods/PromiseKit/Sources/fwd.h
+Pods/PromiseKit/Sources/firstly.swift
+Pods/PromiseKit/Sources/Error.swift
+Pods/PromiseKit/Sources/dispatch_promise.m
+Pods/PromiseKit/Sources/Deprecations.swift
+Pods/PromiseKit/Sources/CustomStringConvertible.swift
+Pods/PromiseKit/Sources/Configuration.swift
+Pods/PromiseKit/Sources/Catchable.swift
+Pods/PromiseKit/Sources/Box.swift
+Pods/PromiseKit/Sources/AnyPromise.swift
+Pods/PromiseKit/Sources/AnyPromise.m
+Pods/PromiseKit/Sources/AnyPromise.h
+Pods/PromiseKit/Sources/AnyPromise+Private.h
+Pods/PromiseKit/Sources/after.swift
+Pods/PromiseKit/Sources/after.m
+Pods/PromiseKit/README.md
+Pods/PromiseKit/LICENSE
+Pods/PromiseKit/Extensions/UIKit/Sources/UIViewPropertyAnimator+Promise.swift
+Pods/PromiseKit/Extensions/UIKit/Sources/UIViewController+AnyPromise.m
+Pods/PromiseKit/Extensions/UIKit/Sources/UIViewController+AnyPromise.h
+Pods/PromiseKit/Extensions/UIKit/Sources/UIView+Promise.swift
+Pods/PromiseKit/Extensions/UIKit/Sources/UIView+AnyPromise.m
+Pods/PromiseKit/Extensions/UIKit/Sources/UIView+AnyPromise.h
+Pods/PromiseKit/Extensions/UIKit/Sources/PMKUIKit.h
+Pods/PromiseKit/Extensions/Foundation/Sources/Process+Promise.swift
+Pods/PromiseKit/Extensions/Foundation/Sources/PMKFoundation.h
+Pods/PromiseKit/Extensions/Foundation/Sources/NSURLSession+Promise.swift
+Pods/PromiseKit/Extensions/Foundation/Sources/NSURLSession+AnyPromise.m
+Pods/PromiseKit/Extensions/Foundation/Sources/NSURLSession+AnyPromise.h
+Pods/PromiseKit/Extensions/Foundation/Sources/NSTask+AnyPromise.m
+Pods/PromiseKit/Extensions/Foundation/Sources/NSTask+AnyPromise.h
+Pods/PromiseKit/Extensions/Foundation/Sources/NSObject+Promise.swift
+Pods/PromiseKit/Extensions/Foundation/Sources/NSNotificationCenter+Promise.swift
+Pods/PromiseKit/Extensions/Foundation/Sources/NSNotificationCenter+AnyPromise.m
+Pods/PromiseKit/Extensions/Foundation/Sources/NSNotificationCenter+AnyPromise.h
+Pods/PromiseKit/Extensions/Foundation/Sources/afterlife.swift
+Pods/Pods.xcodeproj/xcuserdata/alex.xcuserdatad/xcschemes/xcschememanagement.plist
+Pods/Pods.xcodeproj/xcuserdata/alex.xcuserdatad/xcschemes/PromiseKit.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/alex.xcuserdatad/xcschemes/Pods-CovidInfo.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/alex.xcuserdatad/xcschemes/Alamofire.xcscheme
+Pods/Pods.xcodeproj/project.pbxproj
+Pods/Manifest.lock
+Pods/Alamofire/Source/Validation.swift
+Pods/Alamofire/Source/URLSessionConfiguration+Alamofire.swift
+Pods/Alamofire/Source/URLRequest+Alamofire.swift
+Pods/Alamofire/Source/URLEncodedFormEncoder.swift
+Pods/Alamofire/Source/URLConvertible+URLRequestConvertible.swift
+Pods/Alamofire/Source/StringEncoding+Alamofire.swift
+Pods/Alamofire/Source/SessionDelegate.swift
+Pods/Alamofire/Source/Session.swift
+Pods/Alamofire/Source/ServerTrustEvaluation.swift
+Pods/Alamofire/Source/RetryPolicy.swift
+Pods/Alamofire/Source/Result+Alamofire.swift
+Pods/Alamofire/Source/ResponseSerialization.swift
+Pods/Alamofire/Source/Response.swift
+Pods/Alamofire/Source/RequestTaskMap.swift
+Pods/Alamofire/Source/RequestInterceptor.swift
+Pods/Alamofire/Source/Request.swift
+Pods/Alamofire/Source/RedirectHandler.swift
+Pods/Alamofire/Source/Protected.swift
+Pods/Alamofire/Source/ParameterEncoding.swift
+Pods/Alamofire/Source/ParameterEncoder.swift
+Pods/Alamofire/Source/OperationQueue+Alamofire.swift
+Pods/Alamofire/Source/Notifications.swift
+Pods/Alamofire/Source/NetworkReachabilityManager.swift
+Pods/Alamofire/Source/MultipartUpload.swift
+Pods/Alamofire/Source/MultipartFormData.swift
+Pods/Alamofire/Source/HTTPMethod.swift
+Pods/Alamofire/Source/HTTPHeaders.swift
+Pods/Alamofire/Source/EventMonitor.swift
+Pods/Alamofire/Source/DispatchQueue+Alamofire.swift
+Pods/Alamofire/Source/Combine.swift
+Pods/Alamofire/Source/CachedResponseHandler.swift
+Pods/Alamofire/Source/AuthenticationInterceptor.swift
+Pods/Alamofire/Source/AlamofireExtended.swift
+Pods/Alamofire/Source/Alamofire.swift
+Pods/Alamofire/Source/AFError.swift
+Pods/Alamofire/README.md
+Pods/Alamofire/LICENSE
