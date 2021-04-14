@@ -29,15 +29,9 @@ struct AllContinentsView: View {
                             }
                             .accentColor(Color(.teal))
                             
-                            CustomRow(title: "Cases", subtitle: "\(continent.cases.withCommas())")
-                            CustomRow(title: "Today Cases", subtitle: "\(continent.todayCases.withCommas())")
-                            CustomRow(title: "Deaths", subtitle: "\(continent.deaths.withCommas())")
-                            CustomRow(title: "Today Deaths", subtitle: "\(continent.todayDeaths.withCommas())")
-                            CustomRow(title: "Recovered", subtitle: "\(continent.recovered.withCommas())")
-                            CustomRow(title: "Active", subtitle: "\(continent.active.withCommas())")
-                            CustomRow(title: "Critical", subtitle: "\(continent.critical.withCommas())")
-                            CustomRow(title: "Tests", subtitle: "\(continent.tests.withCommas())")
-                            CustomRow(title: "Population", subtitle: "\(continent.population.withCommas())")
+                            ForEach(RowsType.allCases, id: \.self) { type in
+                                CustomRow(title: type.rawValue, subtitle: continent.getRowValue(type: type, continent: continent))
+                            }
                         }
                         .accentColor(.white)
                     }
@@ -56,7 +50,7 @@ struct AllContinentsView: View {
             self.continents = continents
             self.isLoading = false
         }.catch { (error) in
-            print(error)
+            AlertError.showAlertError(type: .allContinents, message: error.localizedDescription)
         }
     }
 }

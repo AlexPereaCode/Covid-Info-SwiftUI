@@ -21,6 +21,31 @@ struct Continent: Codable {
     let population: Double
     let continent: String
     let countries: [String]
+    
+    
+    func getRowValue(type: RowsType, continent: Continent) -> String {
+        
+        switch type {
+        case .cases:
+            return continent.cases.withCommas()
+        case .todayCases:
+            return continent.todayCases.withCommas()
+        case .deaths:
+            return continent.deaths.withCommas()
+        case .todayDeaths:
+            return continent.todayDeaths.withCommas()
+        case .recovered:
+            return continent.recovered.withCommas()
+        case .active:
+            return continent.active.withCommas()
+        case .critical:
+            return continent.critical.withCommas()
+        case .tests:
+            return continent.tests.withCommas()
+        case .population:
+            return continent.population.withCommas()
+        }
+    }
 }
 
 extension Continent: Identifiable {

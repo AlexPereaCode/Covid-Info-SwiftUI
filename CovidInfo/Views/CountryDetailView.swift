@@ -25,24 +25,15 @@ struct CountryDetailView: View {
                 }
         } else {
             List {
-                Group {
-                    CustomRow(title: "Cases", subtitle: country.cases.withCommas())
-                    CustomRow(title: "Today Cases", subtitle: country.todayCases.withCommas())
-                    CustomRow(title: "Deaths", subtitle: country.deaths.withCommas())
-                    CustomRow(title: "Today Deaths", subtitle: country.todayDeaths.withCommas())
-                    CustomRow(title: "Recovered", subtitle: country.recovered.withCommas())
-                    CustomRow(title: "Active", subtitle: country.active.withCommas())
-                    CustomRow(title: "Critical", subtitle: country.critical.withCommas())
-                    CustomRow(title: "Tests", subtitle: country.tests.withCommas())
-                    CustomRow(title: "Population", subtitle: country.population.withCommas())
-                    FooterListView(updated: country.updated)
+                ForEach(RowsType.allCases, id: \.self) { type in
+                    CustomRow(title: type.rawValue, subtitle: country.getRowValue(type: type, country: country))
                 }
-                Group {
-                    flagImage.image
-                        .scaledToFit()
-                        .shadow(color: Color.black.opacity(0.3), radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/, x: 3.0, y: 3.0)
-                        .padding(EdgeInsets(top: 15.0, leading: 0.0, bottom: 15.0, trailing: 0.0))
-                }
+                FooterListView(updated: country.updated)
+                flagImage.image
+                    .resizable()
+                    .scaledToFit()
+                    .shadow(color: Color.black.opacity(0.3), radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/, x: 3.0, y: 3.0)
+                    .padding(EdgeInsets(top: 15.0, leading: 0.0, bottom: 15.0, trailing: 0.0))
             }
             .onAppear() {
                 flagImage.getImage(url: country.countryInfo.flag)

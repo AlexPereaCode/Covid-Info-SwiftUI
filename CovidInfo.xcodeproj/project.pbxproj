@@ -29,6 +29,7 @@
 		FA2C20D826221A6E00B16A67 /* CountrySpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2C20D726221A6E00B16A67 /* CountrySpecs.swift */; };
 		FA2C20DE26221D0F00B16A67 /* GetAllCountriesUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2C20DD26221D0F00B16A67 /* GetAllCountriesUseCase.swift */; };
 		FA2C20E626221ECB00B16A67 /* CountryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2C20E526221ECB00B16A67 /* CountryDetailView.swift */; };
+		FA53AEE026270D51004B9457 /* RowsType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA53AEDF26270D51004B9457 /* RowsType.swift */; };
 		FABDCB34262496A000A2776B /* AlertError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABDCB33262496A000A2776B /* AlertError.swift */; };
 		FABDCB3D26249B5700A2776B /* ImageFromURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABDCB3C26249B5700A2776B /* ImageFromURL.swift */; };
 		FAEDB623261E3EC700A32CE0 /* CovidInfoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEDB622261E3EC700A32CE0 /* CovidInfoApp.swift */; };
@@ -81,6 +82,7 @@
 		FA2C20D726221A6E00B16A67 /* CountrySpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySpecs.swift; sourceTree = "<group>"; };
 		FA2C20DD26221D0F00B16A67 /* GetAllCountriesUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllCountriesUseCase.swift; sourceTree = "<group>"; };
 		FA2C20E526221ECB00B16A67 /* CountryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailView.swift; sourceTree = "<group>"; };
+		FA53AEDF26270D51004B9457 /* RowsType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowsType.swift; sourceTree = "<group>"; };
 		FABDCB33262496A000A2776B /* AlertError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertError.swift; sourceTree = "<group>"; };
 		FABDCB3C26249B5700A2776B /* ImageFromURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFromURL.swift; sourceTree = "<group>"; };
 		FAEDB61F261E3EC700A32CE0 /* CovidInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CovidInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -209,6 +211,14 @@
 			path = "UI Components";
 			sourceTree = "<group>";
 		};
+		FA53AEDE26270D1A004B9457 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				FA53AEDF26270D51004B9457 /* RowsType.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
 		FABDCB322624967300A2776B /* Commons */ = {
 			isa = PBXGroup;
 			children = (
@@ -258,6 +268,7 @@
 				FABDCB322624967300A2776B /* Commons */,
 				FA1B02AE2620B03400998E0F /* UI Components */,
 				FABDCB3B26249B0E00A2776B /* Observable Objects */,
+				FA53AEDE26270D1A004B9457 /* Enums */,
 				FA1B02AA2620998A00998E0F /* Views */,
 				FAEDB622261E3EC700A32CE0 /* CovidInfoApp.swift */,
 				FAEDB626261E3EC700A32CE0 /* Assets.xcassets */,
@@ -480,6 +491,7 @@
 				FA2C20DE26221D0F00B16A67 /* GetAllCountriesUseCase.swift in Sources */,
 				FA2C20C42622058000B16A67 /* DateExtensions.swift in Sources */,
 				FA2C20D826221A6E00B16A67 /* CountrySpecs.swift in Sources */,
+				FA53AEE026270D51004B9457 /* RowsType.swift in Sources */,
 				FA2C20B42621F68E00B16A67 /* UIViewExtensions.swift in Sources */,
 				FABDCB34262496A000A2776B /* AlertError.swift in Sources */,
 				FA1B02B92620C43700998E0F /* UIColorExtensions.swift in Sources */,

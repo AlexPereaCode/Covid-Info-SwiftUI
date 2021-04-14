@@ -21,6 +21,31 @@ struct Country: Codable {
     let continent: String
     let country: String
     let countryInfo: CountryInfo
+    
+    
+    func getRowValue(type: RowsType, country: Country) -> String {
+        
+        switch type {
+        case .cases:
+            return country.cases.withCommas()
+        case .todayCases:
+            return country.todayCases.withCommas()
+        case .deaths:
+            return country.deaths.withCommas()
+        case .todayDeaths:
+            return country.todayDeaths.withCommas()
+        case .recovered:
+            return country.recovered.withCommas()
+        case .active:
+            return country.active.withCommas()
+        case .critical:
+            return country.critical.withCommas()
+        case .tests:
+            return country.tests.withCommas()
+        case .population:
+            return country.population.withCommas()
+        }
+    }
 }
 
 struct CountryInfo: Codable {
